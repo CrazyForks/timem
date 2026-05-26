@@ -7,7 +7,7 @@ name = "timem-ai"
 version = "1.0.0"
 description = "TiMem: Temporal-Hierarchical Memory Consolidation for Long-Horizon Conversational Agents"
 readme = "README.md"
-license = {text = "SSPL-1.0"}
+license = {text = "Apache-2.0 OR MIT"}
 requires-python = ">=3.9"
 authors = [
     {name = "TiMem Team", email = "team@timem.ai"},

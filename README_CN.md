@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/TiMEM-AI/timem-ai">
-    <img src="assets/timem.jpg" width="800px" alt="TiMem - 时序分层记忆框架">
+    <img src="assets/timem.jpg" width="800px" alt="TiMem - 智能体预测式认知调控引擎">
   </a>
 </p>
 
@@ -9,11 +9,11 @@
 </p>
 
 <p align="center">
-  <em>面向长程对话智能体的时序分层记忆巩固框架</em>
+  <em>智能体预测式认知调控引擎——让智能体更稳定、能进化、更主动</em>
 </p>
 
 <p align="center">
-  将<strong>无尽</strong>的对话转化为<strong>结构化、多层次</strong>的记忆，基于<strong>时序记忆树（TMT）</strong>——从细粒度证据到稳定人格。
+  TiMem 是一款基于<strong>时序分层记忆（TMT）</strong>的<strong>智能体预测式认知调控引擎</strong>。它让智能体能够<strong>稳定执行长程任务</strong>、<strong>持续学习自我进化</strong>、<strong>主动理解用户需求</strong>——将无尽的交互转化为结构化、可行动的认知。
 </p>
 
 <p align="center">
@@ -38,7 +38,7 @@
     <img src="https://img.shields.io/pypi/v/timem-ai?color=%2334D058&label=pypi%20package" alt="PyPI 版本">
   </a>
   <a href="https://github.com/TiMEM-AI/timem-ai/blob/main/LICENSE">
-    <img src="https://img.shields.io/badge/license-SSPL-red" alt="许可证: SSPL">
+    <img src="https://img.shields.io/badge/license-Apache%202.0-blue" alt="许可证: Apache 2.0">
   </a>
   <a href="https://github.com/TiMEM-AI/timem-ai/stargazers">
     <img src="https://img.shields.io/github/stars/TiMEM-AI/timem" alt="星标数">
@@ -52,14 +52,16 @@
 
 ## 🔥 TiMem 亮点
 
-- **五级时序层次**：从片段到稳定人格的显式时序排序
-- **无需微调**：基于指令引导的记忆巩固
-- **复杂度感知召回**：根据查询复杂度自适应检索
-- **领先性能**：在 LoCoMo、LongMemmEval-S 基准测试中表现优异
+- **预测式认知调控**：通过时序分层记忆主动预判智能体需求和用户意图
+- **五级时序记忆树（TMT）**：从细粒度证据到稳定人格的显式时序排序
+- **持续自我进化**：智能体从每次交互中学习进化，无需微调
+- **长程任务稳定性**：在复杂工作流和长期会话中保持稳定表现
+- **复杂度感知召回**：根据查询复杂度自适应检索，平衡精度与效率
+- **领先性能**：在 LoCoMo、LongMemEval-S 基准测试中表现优异
 
 # 简介
 
-[TiMem](https://github.com/TiMEM-AI/timem-ai) 通过 时序记忆树（TMT） 增强 AI 助手和智能体——一个智能记忆框架，将记忆组织在具有显式时序顺序的五级层次结构中。
+[TiMem](https://github.com/TiMEM-AI/timem-ai) 是一款基于<strong>时序分层记忆（TMT）</strong>的<strong>智能体预测式认知调控引擎</strong>。它为智能体提供基础设施，使其能够稳定执行长程任务、从交互中持续学习自我进化、主动理解用户需求——将原始对话转化为结构化、可行动的认知。
 
 ### 核心特性与使用场景
 
@@ -70,10 +72,12 @@
 - **多模型支持**：OpenAI、Claude、智谱AI、千问、本地模型
 
 **应用场景：**
-- **AI 助手**：长会话中的一致性、上下文丰富对话
-- **客户支持**：跨会话回忆用户历史，提供个性化帮助
-- **教育**：跟踪学习进度，适应学生需求
-- **生产力工具**：随着时间推移建立持久的用户画像
+- **自主智能体**：复杂多步骤任务的稳定执行与持久上下文
+- **AI 助手**：与用户共同进化的主动式、上下文丰富对话
+- **企业工作流**：具备持续学习能力的长程业务流程
+- **客户支持**：通过深度用户理解提供跨会话个性化服务
+- **教育与培训**：追踪并预测学习者需求的自适应辅导
+- **生产力工具**：预判用户意图、自我进化的个人助理
 
 ## 🚀 快速开始
 
@@ -325,6 +329,8 @@ TiMem 云服务是托管版本，无需部署即可使用。
 
 ### 💬 社区
 
+TiMem 欢迎各种形式的贡献：代码、文档、bug 报告、功能建议和反馈。随时提交 Issue 或 Pull Request，每一份贡献都会让 TiMem 变得更好。
+
 加入我们的中文社区获取技术支持和交流：
 
 <p align="center">
@@ -354,9 +360,12 @@ TiMem 云服务是托管版本，无需部署即可使用。
 
 ## ⚖️ 许可证
 
-Server Side Public License (SSPL) v1 — 详见 [LICENSE](LICENSE) 文件。
+TiMem 采用双协议模型，兼顾开放性与易用性：
 
-**注意：** 本协议要求，如果您将 TiMem 的功能作为网络服务提供给他人使用，您必须以相同的协议开源您的修改（包括所有支持软件）。这确保了使用 TiMem 进行商业运营的云服务提供商将其改进回馈给社区。
+- **核心引擎**（`timem/`、`storage/`、`services/`、`llm/`、`migration/`）：[Apache License 2.0](LICENSE) — 含专利授权保护，适用于生产基础设施
+- **工具与集成**（`tools/`、`cloud-service/`、`docs/`）：[MIT License](tools/LICENSE) — 极度宽松，鼓励社区工具和商业化集成
+
+详见各 LICENSE 文件完整条款。欢迎各种形式的贡献 — PR 和 Issue 让 TiMem 变得更好。
 
 
 ## ⭐ Star History

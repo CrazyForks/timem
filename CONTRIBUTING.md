@@ -383,7 +383,9 @@ Unacceptable behavior includes:
 
 ## License
 
-By contributing code, you agree that your contributions will be released under the same [Apache 2.0 License](LICENSE) as the project.
+By contributing code, you agree that your contributions will be released under the same license as the project:
+- Contributions to core engine modules (`timem/`, `storage/`, `services/`, `llm/`, `migration/`) are released under [Apache License 2.0](LICENSE).
+- Contributions to tools and utilities (`tools/`, `cloud-service/`, `docs/`) are released under [MIT License](tools/LICENSE).
 
 ---
 

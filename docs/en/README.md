@@ -110,7 +110,7 @@ If you find documentation issues or have improvement suggestions:
 - **GitHub Repository**: https://github.com/TiMEM-AI/timem
 - **PyPI Package**: https://pypi.org/project/timem-ai/
 - **Cloud Platform**: https://timem.cloud
-- **License**: [SSPL](../LICENSE)
+- **License**: Dual — Core [Apache 2.0](../LICENSE), Tools [MIT](../tools/LICENSE)
 
 ---
 

@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/TiMEM-AI/timem-ai">
-    <img src="assets/timem.jpg" width="800px" alt="TiMem - Temporal-Hierarchical Memory System">
+    <img src="assets/timem.jpg" width="800px" alt="TiMem - Predictive Cognitive Regulation Engine for Agents">
   </a>
 </p>
 
@@ -9,11 +9,11 @@
 </p>
 
 <p align="center">
-  <em>Temporal-Hierarchical Memory Consolidation for Long-Horizon Conversational Agents</em>
+  <em>Predictive Cognitive Regulation Engine for Agents — Stable, Self-Evolving, Proactive</em>
 </p>
 
 <p align="center">
-  Transform <strong>endless</strong> dialogues into <strong>structured, multi-level memories</strong> with a <strong>Temporal Memory Tree (TMT)</strong> — from fine-grained evidence to stable persona.
+  TiMem is a <strong>Predictive Cognitive Regulation Engine</strong> powered by <strong>Temporal-Hierarchical Memory (TMT)</strong>. It enables agents to handle <strong>long-horizon tasks</strong> with <strong>stable execution</strong>, <strong>continuous self-evolution</strong>, and <strong>proactive user understanding</strong> — turning endless interactions into structured, multi-level cognition.
 </p>
 
 <p align="center">
@@ -40,7 +40,7 @@
     <img src="https://img.shields.io/pypi/v/timem-ai?color=%2334D058&label=pypi%20package" alt="PyPI Version">
   </a>
   <a href="https://github.com/TiMEM-AI/timem-ai/blob/main/LICENSE">
-    <img src="https://img.shields.io/badge/license-SSPL-red" alt="License: SSPL">
+    <img src="https://img.shields.io/badge/license-Apache%202.0-blue" alt="License: Apache 2.0">
   </a>
   <a href="https://github.com/TiMEM-AI/timem-ai/stargazers">
     <img src="https://img.shields.io/github/stars/TiMEM-AI/timem" alt="Stars">
@@ -54,14 +54,16 @@
 
 ## 🔥 TiMem Highlights
 
-- **5-Level Temporal Hierarchy**: Explicit temporal ordering from fragments to stable persona
-- **No Fine-tuning Required**: Instruction-guided memory consolidation
-- **Complexity-Aware Recall**: Adaptive retrieval based on query complexity
-- **State-of-the-Art Performance**: Leading results on LoCoMo and  LongMemmEval-S benchmark
+- **Predictive Cognitive Regulation**: Proactively anticipates agent needs and user intent via temporal-hierarchical memory
+- **5-Level Temporal Memory Tree (TMT)**: Explicit temporal ordering from fine-grained evidence to stable persona
+- **Continuous Self-Evolution**: Agents learn and adapt from every interaction without fine-tuning
+- **Long-Horizon Task Stability**: Sustained performance across extended sessions and complex workflows
+- **Complexity-Aware Recall**: Adaptive retrieval that balances precision and efficiency
+- **State-of-the-Art Performance**: Leading results on LoCoMo and LongMemEval-S benchmarks
 
 # Introduction
 
-[TiMem](https://github.com/TiMEM-AI/timem-ai) enhances AI assistants and agents with a **Temporal Memory Tree (TMT)** — an intelligent memory system that organizes memories in a 5-level hierarchical structure with explicit temporal ordering.
+[TiMem](https://github.com/TiMEM-AI/timem-ai) is a **Predictive Cognitive Regulation Engine** built on **Temporal-Hierarchical Memory (TMT)**. It provides infrastructure for agents to execute long-horizon tasks with stability, continuously learn and self-evolve from interactions, and proactively understand user needs — transforming raw dialogues into structured, actionable cognition.
 
 ### Key Features & Use Cases
 
@@ -72,10 +74,12 @@
 - **Multi-LLM Support**: OpenAI, Claude, ZhipuAI, Qwen, local models
 
 **Applications:**
-- **AI Assistants**: Consistent, context-rich conversations over long sessions
-- **Customer Support**: Recall user history across sessions for personalized help
-- **Education**: Track learning progress and adapt to student needs
-- **Productivity**: Build persistent user profiles over time
+- **Autonomous Agents**: Stable execution of complex, multi-step tasks with persistent context
+- **AI Assistants**: Proactive, context-rich conversations that evolve with the user
+- **Enterprise Workflows**: Long-horizon business processes with continuous learning
+- **Customer Support**: Personalized help through deep user understanding across sessions
+- **Education & Training**: Adaptive tutoring that tracks and predicts learner needs
+- **Productivity**: Self-evolving personal assistants that anticipate user intent
 
 ## 🚀 Quick Start
 
@@ -322,9 +326,12 @@ Continuously maintained and upgraded:
 - **[Authentication](docs/en/api-reference/authentication.md)** - Auth guide
 
 ### 🛠️ Support
-- **Issues**: [GitHub Issues](https://github.com/TiMEM-AI/timem/issues)
-- **Contributing**: [CONTRIBUTING.md](CONTRIBUTING.md)
+- **Issues**: [GitHub Issues](https://github.com/TiMEM-AI/timem/issues) — bug reports, feature requests, and questions welcome
+- **Contributing**: [CONTRIBUTING.md](CONTRIBUTING.md) — we actively review PRs
 - **Troubleshooting**: [docs/en/troubleshooting.md](docs/en/troubleshooting.md)
+
+### 🤝 Community
+We welcome all forms of contribution: code, documentation, bug reports, feature ideas, and feedback. Open an issue or pull request — every contribution makes TiMem better.
 
 ## 📝 Citation
 
@@ -344,9 +351,12 @@ If you use TiMem in your research, please cite:
 
 ## ⚖️ License
 
-Server Side Public License (SSPL) v1 — see the [LICENSE](LICENSE) file for details.
+TiMem uses a dual-license model to balance openness and adoption:
 
-**Note:** This license requires that if you make the functionality of TiMem available to others as a network service, you must make your modifications (including all supporting software) available under the same license. This ensures cloud providers who use TiMem commercially contribute their improvements back to the community.
+- **Core Engine** (`timem/`, `storage/`, `services/`, `llm/`, `migration/`): [Apache License 2.0](LICENSE) — patent-protected, suitable for production infrastructure
+- **Tools & Utilities** (`tools/`, `cloud-service/`, `docs/`): [MIT License](tools/LICENSE) — maximally permissive, encourages community tooling and commercial integration
+
+See the respective LICENSE files for full terms. We welcome all contributions — PRs and issues make TiMem better for everyone.
 
 ## ⭐ Star History
 
